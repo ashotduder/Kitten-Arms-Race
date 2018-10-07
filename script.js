@@ -1,6 +1,6 @@
 //Take me down to Kludge City where the comments are green and the code is spaghetti
 
-var catnip = 99999;
+var catnip = 0;
 var totalDamage = 0;
 var defeatCount = 0;
 var catHero = 0;
