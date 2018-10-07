@@ -1,0 +1,79 @@
+<html>
+	<head>
+		<title>Cats of Duty: Meowdern Warfare</title>
+		<link rel="stylesheet" type="text/css" href="game.css" />
+		<meta charset="UTF-8">
+	</head>
+	
+	<body>
+		<h1>NEDM Defense Inc.</h1>
+		<p>Trusted Kitten Security Solutions Since 2008.</p>
+		<script type="text/javascript" src="script.js"></script>
+	
+		<div id="actions">
+			<h3>Actions</h3>
+			<span id="catnip">Current Catnip: 0</span> <br>
+			<button onclick="catnipClick(1)">Get Catnip</button>
+			<br>
+			<button onclick="attackClick(1)">Attack Enemy</button> <br>
+			<br>
+		</div>
+		
+		<div id="battlePics">
+		<h3>The Current Battle</h3>
+		<span id="finalBoss"><h2>MEGA ULTRA FINAL BOSS FIGHT</h2></span>
+			<div id="Meow">
+				<img id="catPic" src="images/cats/default.png">
+				<br><span id="catName">Your Toughest Furry Friend: Unarmed Cat</span><br>
+				<br><span id="damage"></span> 
+			</div>
+			<div id="bork">
+				<img  id="enemyPic" src="images/enemy/box.jpg">
+				<br><span id="enemyName">Current Enemy: Chewed Up Cardboard Box</span>
+				<br><span id="enemyHealth">Enemy Health: </span><br>
+			</div>
+		</div> 
+		
+		<div id="inventory">
+			<h3>Inventory</h3>
+			<span id="supplyDrops">Catnip Supply Drops: 0</span> <br>
+			<span id="farmers">Catnip Farmers: 0</span> <br>
+			<span id="generators">Catnip Generators: 0</span> <br>
+			<span id="printers">3D Catnip Printers: 0</span> <br>
+			<span id="factories">Catnip Factories: 0</span> <br>
+			<span id="knifeCats">Knife Kittehs: 0</span> <br>
+			<span id="glockCats">Glock Cats: 0</span> <br>
+			<span id="fAFCats">Full Auto Felines: 0</span><br>
+			<span id="AWPCats">AWP Mousers: 0</span><br>
+			<span id="AKCats">AK Kitties: 0</span><br>
+			<span id="malkins">M10 Malkins: 0</span><br>
+		</div>
+		
+		<div id="store">
+			<h3>Store</h3>
+			<div id="catnipMakers">
+				<button onClick="buySupplyDrop()">Buy Catnip Supply Drop: <span id="supplyDropCost">10</span> Catnip</button>
+				<br>
+				<button id="farmerButton" onClick="buyFarmer()">Buy Catnip Farmer: <span id="farmerCost">25</span> Catnip</button>
+				<button id="generatorButton" onclick="buyCatnipGenerator()">Buy Catnip Generator: <span id="generatorCost">50</span> Catnip</button>
+				<button id="printerButton" onclick="buyPrinter()">Buy 3D Catnip Printer: <span id="printerCost">100</span> Catnip</button>
+				<button id="factoryButton" onclick="buyFactory()">Buy Catnip Factory: <span id="factoryCost">1000</span> Catnip</button>
+				<br>
+			</div>
+			<div id="catBuy">
+				<button onclick="buyKnifeCat()">Hire Knife Kitteh: <span id="knifeCost">15</span> Catnip</button>
+				<br>
+				<button id="glockButton" onclick="buyGlockCat()">Hire Glock Cat: <span id="glockCost">50</span> Catnip</button>
+				<br>
+				<button id="fAFButton" onclick="buyfAFCat()">Hire Full Auto Feline: <span id="fAFCatCost">300</span> Catnip</button>
+				<br>
+				<button id="AWPButton" onclick="buyAWPCat()">Hire AWP Mouser: <span id="AWPCatCost">575</span> Catnip</button>
+				<br>
+				<button id="AKButton" onclick="buyAKCat()">Hire AK Kitty: <span id="AKCatCost">999</span> Catnip</button>
+				<br>
+				<button id="malkinButton" onclick="buyMalkin()">Hire M10 Malkin: <span id="malkinCost">2000</span> Catnip</button>
+			</div>
+		</div>
+		
+	</body>
+</html>

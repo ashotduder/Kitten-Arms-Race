@@ -1,0 +1,175 @@
+body{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-image: url("images/background.jpg");
+	background-repeat: repeat;
+}
+
+p {
+	font-style: italic;
+}
+
+div>span {
+	background-color: white;
+	border: 2px solid black;
+	max-width: 250px;
+}
+
+h1, h2, h3, p {
+	background-color: white;
+	border: 2px solid black;
+	max-width: 250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#enemyPic {
+	height: 300px;
+	width: 300px;
+}
+
+#catPic {
+	height: 300px;
+	width: 300px;
+}
+
+
+/*Shit to Hide */
+
+#finalBoss {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#farmers {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#farmerButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#generators {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#generatorButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#printers {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#printerButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#factories {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#factoryButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#glockCats {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#glockButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#fAFCats{
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#fAFButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#AWPCats {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#AWPButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#AKButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#AKCats {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#malkinButton {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#malkins {
+	display: none;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+}
+}
+}
+}
