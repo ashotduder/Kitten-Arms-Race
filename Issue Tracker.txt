@@ -1,0 +1,14 @@
+Issue Tracker Sheet
+=====================
+Key:
+-----
+# = shippable
+* = game flow breaking
+! = gamebreaking
+
+0.5
+---------
+*Farmer building jumps up to 2 when the first farmer is bought and then player
+	cannot buy another at listed price. Jumps to 8 after second purchase.
+!Farmer building will not let player purchase more than 2 of building type but will still count up price as if building was successfully purchased.
+#Toughest Fighter and total damage spans clip into the pics above and below them.
